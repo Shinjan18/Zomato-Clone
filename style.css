@@ -1,0 +1,179 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #ffe6e6;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px; /* Add padding for spacing */
+    text-align: center;
+    background: url('bg.png') no-repeat center center; /* Set the background image */
+    background-size: cover; /* Ensure the background covers the section */
+    background-attachment: fixed; /* Keep the background fixed during scroll */
+    color: #ffffff;
+}
+
+.hero img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.hero input {
+    padding: 15px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background: url('bg.png') no-repeat center center;
+    background-size: cover; /* Ensure the background covers the entire section */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    color: #333;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #ffe6e6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff4d4d;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 20px;
+    background: url('bg.png') no-repeat center center;
+    background-size: cover; /* Ensure the background covers the entire section */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    color: #ffffff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.testimonial p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.testimonial h4 {
+    margin-top: 15px;
+    color: #ff4d4d;
+}
+
+/* Footer */
+footer {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
