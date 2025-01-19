@@ -5,5 +5,7 @@ This repository contains the frontend implementation of a Zomato-inspired websit
 Technologies Used
 
 HTML5: For structuring the webpage.
+
 CSS3: For styling the layout, including animations, hover effects, and responsiveness.
+
 JavaScript: For adding basic interactivity and animations on the page.
